@@ -1,0 +1,22 @@
+{
+  "name": "django-react",
+  "version": "1.0.0",
+  "description": "trial app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./src/index.js --output ./static/frontend/main.js",
+    "build": "webpack --mode production ./src/index.js --output ./static/frontend/main.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asingh51/Django-REST-React-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asingh51/Django-REST-React-/issues"
+  },
+  "homepage": "https://github.com/asingh51/Django-REST-React-#readme"
+}
